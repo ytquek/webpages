@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>FCC: Survey Form</title>
+  
+  
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <h1 id="title">Survey Form</h1>
+<div id="main">
+  <p id="description">
+    This is a form to ask for my form input :D
+  </p>
+  <form id="survey-form">
+     <label id="name-label" for="name">Name:   </label>
+    <input type="text" name="name" id="name" placeholder ="enter name" required>
+  <br>
+<label id="email-label" for="email">Email:   </label>
+   <input type="email" name="email" id="email" class="input-field" required placeholder="Enter your Email">
+    <br>
+   <label id="number-label" for="numbers">How good is the form? </label>
+    <input type="number" name="age" id="number" min="0" max="10" class="input-field" placeholder="Key in numbers ranging from 0 - 10">
+<br>
+  <label for="weakareaLabel">Which should i work on??
+  </label>
+  <select id="dropdown" name="weakarea" class="dropdown">
+      <option disabled value>Select an option</option>
+      <option value="styling">Styling</option>
+      <option value="font-placement">Font placement</option>
+      <option value="other">Other</option>
+    </select>
+  <br>
+    <label for="ratingLabel">What should i add next?</label>
+  <ul>
+    <li><input value="bootstrap"  type="checkbox" >Bootstrap</li>
+     <li><input value="javascript"  type="checkbox"  >Java Animation</li>
+      <li><input value="cats"  type="checkbox" >Cats Picture!</li>
+  </ul>
+    <br>
+     <label for="likelyHood">How likely would you use this form</label>
+    <br>
+    <input name="radio-buttons" value="1"  type="radio" class="likelyHood" >I will!
+    <input name="radio-buttons" value="2"  type="radio" class="likelyHood" >Nah!
+
+    <br>
+  <label for="commentsLabel">All other comments</label>
+  <br>
+   <textarea id="comments" style="height:50px;resize:vertical;" name="comment" placeholder="Enter your comments here"></textarea>
+  <br>
+  <button id="submit" type="submit">Submit</button>
+  </form>
+</div>
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script>
+
+  
+
+</body>
+
+</html>

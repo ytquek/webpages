@@ -1,0 +1,77 @@
+h1{
+	color: #000000;
+	font-size: x -large;
+	font-weight: 1px;
+
+}
+
+b{
+	color: #000000;
+	font-weight: strong;
+}
+
+i{
+	color: #000000;
+	font-weight: italic;
+}
+
+h2{
+	color: #FFA500;
+	font-size: x -large;
+
+}
+
+.one{
+	color: grey;
+	margin: 2px;
+	border-color: grey;
+    border-style: solid;
+    border-width: 1px;
+	padding: 5px; padding-bottom: 10px; padding-left: 20px;
+}
+
+.education {
+	font-size: 20px
+	color: grey;
+	margin: 2px;
+	border-color: grey;
+    border-style: solid;
+    border-width: 1px;
+	padding: 5px; padding-bottom: 10px; padding-left: 20px;
+}
+
+.two{
+	color: #000000;
+
+}
+
+.profile{
+	color: black;
+	margin: 2px;
+	font-size: 20px;
+	background-color: #ebf7ad;
+	border-color: #e0e5c7;
+    border-style: solid;
+    border-width: 1px;
+	padding: 5px; padding-bottom: 10px; padding-left: 20px;
+	
+}
+
+.hi{
+	font-weight: bold;
+	color: grey;
+	font-size: 12px;
+}
+
+
+@media only screen and (min-device-width: 377px){
+	table.mobile{display : none}
+}
+
+
+
+@media only screen and (max-device-width: 376px){
+	
+	table.desktop{display : none}
+}
+

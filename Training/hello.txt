@@ -1,0 +1,54 @@
+new stuff to html5
+
+audio video
+canvas - to draw shapes and what not. 
+support css3. 
+local data storage - store user details onto machine/cache preferences.
+offline applications.
+
+way to make html -> html5
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link> <-- dont need a closure
+</head>
+<body>
+	<section>
+		<article>
+		
+		</article>
+
+	</section>
+</body>
+
+
+</html>
+
+css: inline, external, internal
+
+.p{} -> class name
+p{}
+#p{} <- by id.
+h1.p{}
+h1, .p{}
+h1.p
+h1 > .p {} <-- any direct descendant of h1 will apply.
+
+
+
+ h1.p{color:white}
+ h1 .p{color:white} <- all descendant of h1 with <p>
+ 
+ 
+ 
+ media query to control sizes
+ 
+ 
+ comments usually to group related code together (segment the code)
+ 
+ 
+ inline -> style _> external
+ 
+ </body><script type =""> </script>
